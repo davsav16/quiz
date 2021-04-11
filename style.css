@@ -19,7 +19,23 @@ main {
     margin: 150px;
 }
 
-.title {
+.no-show {
+    display: none;
+}
+
+.flex-answers {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.flex-record {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#title {
     text-align: center;
     font-size: 4.5vw;
 }
@@ -40,6 +56,7 @@ main {
     color: white;
     background-color:rgb(128,0,128, 1);
     opacity: 1;
+    margin: 10px;
 }
 
 .btn:hover {
