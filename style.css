@@ -29,12 +29,6 @@ main {
     width: 50%;
 }
 
-.flex-record {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
 #title {
     text-align: center;
     font-size: 4.5vw;
@@ -62,4 +56,33 @@ main {
 .btn:hover {
     background-color: rgb(128,0,128, 0.7);
     font-weight: bold;
+}
+
+/*form styles*/
+.flex-record {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+.text-form {
+    font-size: 3vw;
+}
+
+.input-box {
+    height: 3vw;
+}
+
+.input-box:hover {
+    background-color: rgb(128,0,128, 0.2);
+}
+
+.input-box:focus {
+    background-color: rgb(128,0,128, 0.2);
+}
+
+.submit-btn {
+    height: 3vw;
+    padding: 3px 40px 12px 40px;
 }
